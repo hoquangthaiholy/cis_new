@@ -14,20 +14,20 @@
 				Here are some helpful links instead:
 			</p>
 			<p class="mb-4">
-				<router-link to="/dashboard">Home</router-link>
+				<nuxt-link to="/dashboard">Home</nuxt-link>
 				<span class="link-divider"></span>
-				<router-link to="/page/search-results">Search</router-link>
+				<nuxt-link to="/page/search-results">Search</nuxt-link>
 				<a href="page_search_results.html"></a>
 				<span class="link-divider"></span>
-				<router-link to="/email/inbox">Email</router-link>
+				<nuxt-link to="/email/inbox">Email</nuxt-link>
 				<span class="link-divider"></span>
-				<router-link to="/calendar">Calendar</router-link>
+				<nuxt-link to="/calendar">Calendar</nuxt-link>
 				<span class="link-divider"></span>
-				<router-link to="/settings">Settings</router-link>
+				<nuxt-link to="/settings">Settings</nuxt-link>
 				<span class="link-divider"></span>
-				<router-link to="/helper">Helper</router-link>
+				<nuxt-link to="/helper">Helper</nuxt-link>
 			</p>
-			<router-link to="/dashboard" class="btn btn-primary">Go to Homepage</router-link>
+			<nuxt-link to="/dashboard" class="btn btn-primary">Go to Homepage</nuxt-link>
 		</div>
 		<!-- END error-page-content -->
 	</div>
